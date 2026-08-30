@@ -1,58 +1,127 @@
 # Modern SaaS Dashboard
 
-Modern SaaS dashboard frontend built with React, Tailwind CSS, Redux Toolkit, React Router and Recharts.
+A modern, responsive SaaS dashboard built with React.js and Tailwind CSS. The project uses reusable components and a clean structure, making it easy to customize, maintain, and connect with a backend API.
+
+## Features
+
+* Responsive dashboard for desktop, tablet, and mobile
+* Modern sidebar and navigation
+* KPI and statistics cards
+* Revenue and analytics charts
+* User management
+* Projects management
+* Notifications
+* Settings and profile
+* Login screen
+* Reusable UI components
+* Accessibility-friendly interface
+* API-ready frontend structure
+
+## Technologies
+
+* React.js
+* Tailwind CSS
+* Redux Toolkit
+* React Router
+* Recharts
+* JavaScript
 
 ## Requirements
 
-- Node.js 18+
-- npm 9+
+Make sure the following are installed:
 
-## Run
+* Node.js 18+
+* npm 9+
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Amirkhan55/modern-saas-dashboard.git
+```
+
+Open the project folder:
+
+```bash
+cd modern-saas-dashboard
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+## Run Locally
+
+Start the development server:
+
+```bash
 npm start
 ```
 
-Then open the local development URL shown in your browser.
+The application will be available at the local URL shown in your terminal.
 
-## Production build
+## Production Build
+
+Create a production build:
 
 ```bash
 npm run build
-npm run preview
 ```
 
-## Included
+The optimized production files will be generated in the `build` folder.
 
-- Responsive SaaS dashboard
-- Sidebar/navigation
-- Dashboard KPI cards
-- Revenue chart
-- User management with Redux
-- Projects
-- Analytics
-- Notifications
-- Settings
-- Profile
-- Login screen
-- Reusable Button/Card/Badge/Modal components
-- Accessibility-friendly labels and focus states
-- API service layer placeholder for backend integration
-- Tailwind design tokens
+## Backend Integration
 
-## Backend integration
+The frontend is structured to work with a REST API.
 
-Replace `src/services/api.js` with your real REST API calls. The frontend structure is suitable for a Node.js/NestJS backend.
+API configuration and requests can be added or updated in:
 
-## Figma handoff
+```text
+src/services/api.js
+```
 
-The implementation uses a consistent design system:
-- 4/8/16/24/32 spacing rhythm
-- 6/10/12/16px component radii
-- Inter typography
-- Indigo brand scale
-- Semantic status badges
-- Reusable cards, buttons, inputs and modal patterns
+The dashboard can be connected to backends built with:
 
-This codebase is the frontend implementation portion of the SOW. A `.fig` source file cannot be generated reliably as code; the UI tokens and component structure above are organized so they can be recreated directly as Figma components/variants.
+* Node.js / NestJS
+* Express.js
+* Laravel
+* Other REST API services
+
+## Customization
+
+The dashboard can be customized to match your business or product requirements, including:
+
+* Logo and brand name
+* Colors and styling
+* Dashboard data
+* Charts and analytics
+* Navigation and pages
+* User roles and permissions
+* Authentication
+* API endpoints
+* Additional dashboard modules
+
+## Design System
+
+The interface follows a consistent and reusable design approach with:
+
+* Responsive layouts
+* Consistent spacing
+* Reusable UI components
+* Inter typography
+* Semantic status indicators
+* Reusable cards, buttons, inputs, and modals
+* Tailwind CSS styling
+
+## Project Notes
+
+This repository contains the **frontend implementation** of the Modern SaaS Dashboard.
+
+Backend services, database configuration, and production credentials are not included. These can be integrated based on the project's requirements.
+
+## Support
+
+For customization, backend integration, additional features, or deployment support, please contact the developer.
