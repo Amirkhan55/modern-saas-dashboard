@@ -14,7 +14,7 @@ export default function StatCard({ title, value, change, positive = true, icon: 
         </span>
       </div>
       <p className="mt-5 text-sm text-slate-500">{title}</p>
-      <p className="mt-1 text-2xl font-bold tracking-tight text-slate-900">{value}</p>
+      <p className="mt-1 text-2xl font-bold tracking-tight text-slate-900 dark:text-white">{value}</p>
     </Card>
   );
 }

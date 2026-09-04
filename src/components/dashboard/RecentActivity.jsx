@@ -11,7 +11,7 @@ export default function RecentActivity() {
   return (
     <Card className="p-5">
       <div className="mb-5 flex items-center justify-between">
-        <h2 className="font-semibold text-slate-900">Recent activity</h2>
+        <h2 className="font-semibold text-slate-900 dark:text-white">Recent activity</h2>
         <button className="text-sm font-medium text-brand-600">View all</button>
       </div>
       <div className="space-y-5">

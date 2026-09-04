@@ -7,10 +7,10 @@ export default function RevenueChart() {
     <Card className="p-5">
       <div className="mb-6 flex items-start justify-between">
         <div>
-          <h2 className="font-semibold text-slate-900">Revenue overview</h2>
+          <h2 className="font-semibold text-slate-900 dark:text-white">Revenue overview</h2>
           <p className="mt-1 text-sm text-slate-500">Monthly recurring revenue performance</p>
         </div>
-        <select className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-600 outline-none">
+        <select className="rounded-lg bg-white border border-slate-200  dark:bg-slate-900 dark:border-slate-800 px-3 py-2 text-sm text-slate-600 outline-none">
           <option>Last 8 months</option>
           <option>Last 12 months</option>
         </select>
